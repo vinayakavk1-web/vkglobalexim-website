@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our premium products: Indian Mangoes, Fresh Fruits, Vegetables, and Spices. Top mango exporters from India to Canada and worldwide.">
+    <meta name="keywords" content="Mango Exporters from India to Canada, Fresh Mangoes India, Banganapalli Mangoes Export, Indian Agricultural Products, VK GLOBAL EXIM, Fruit Exporters India">
+    <title>Our Products | Mango Exporters from India to Canada | VK GLOBAL EXIM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Navbar Styles */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 10px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        .logo-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+        .logo-img {
+            height: 80px; 
+            object-fit: contain;
+        }
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-links a {
+            color: #1a1a1a;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+            transition: color 0.3s ease;
+        }
+        .nav-links a:hover {
+            color: #0066cc;
+        }
+        .cta-btn {
+            padding: 12px 24px;
+            border-radius: 30px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(45deg, #0066cc, #3a7bd5);
+            color: white;
+        }
+        .cta-btn:hover {
+            box-shadow: 0 0 15px rgba(0, 102, 204, 0.5);
+            transform: translateY(-2px);
+        }
+
+        /* Floating Action Menu */
+        .floating-action-menu {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 1000;
+        }
+        .action-button {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background-color: #28a745;
+            color: #ffffff;
+            padding: 12px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+            min-width: 180px;
+            justify-content: flex-start;
+        }
+        .action-button:hover {
+            background-color: #218838;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+            color: #ffffff !important;
+        }
+        .action-button svg {
+            fill: #ffffff;
+            width: 22px;
+            height: 22px;
+        }
+
+        .products-section {
+            padding: 80px 50px;
+            background: var(--bg-color);
+        }
+        
+        .product-card {
+            background: rgba(30, 41, 59, 0.7);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(16, 185, 129, 0.15);
+            border-color: rgba(16, 185, 129, 0.4);
+        }
+
+        .product-icon {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .product-title {
+            color: #f59e0b;
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .product-desc {
+            color: #cbd5e1;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .category-title {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 800;
+            color: #f8fafc;
+            margin: 40px 0;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #10b981;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body style="position: relative; min-height: 100%; top: 0px;">
+    
+    <nav class="navbar">
+        <a href="index.html" class="logo-link">
+            <img src="logo.png" alt="VK GLOBAL EXIM Logo" class="logo-img">
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html" style="color: #10b981;">Products</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="certificates.html">Certificates</a></li>
+            <li><a href="index.html#contact">Contact Us</a></li>
+        </ul>
+        <button class="cta-btn" onclick="window.location.href='index.html#contact'">Get a Quote</button>
+    </nav>
+
+    <!-- Banner -->
+    <section style="position: relative; height: 350px; display: flex; align-items: center; overflow: hidden; background-color: #0f172a; margin-top: 100px;">
+      <div style="flex: 1; padding-left: 10%; z-index: 2;">
+        <h1 style="font-size: 3.5rem; font-weight: 900; color: #ffffff; text-transform: capitalize; margin-bottom: 10px; text-shadow: 1px 1px 3px rgba(0,0,0,0.2);">Our Products</h1>
+        <p style="color: #ffffff; font-weight: 700; font-size: 14px; letter-spacing: 2px; text-transform: uppercase; text-shadow: 1px 1px 2px rgba(0,0,0,0.2);">
+          <a href="index.html" style="color: #ffffff; text-decoration: none;">HOME</a> / PRODUCTS
+        </p>
+      </div>
+      <div style="position: absolute; top: 0; right: 0; bottom: 0; width: 65%; background-image: url('vegetables.png'); background-size: cover; background-position: center; clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%); z-index: 1;">
+      </div>
+    </section>
+
+    <!-- Products Content -->
+    <section class="products-section container">
+        
+        <div style="text-align: center;">
+            <h2 class="category-title">Fresh Mangoes</h2>
+        </div>
+        <div class="services-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 60px;">
+            <div class="product-card">
+                <div class="product-icon">🥭</div>
+                <h3 class="product-title">Banganapalli Mango</h3>
+                <p class="product-desc">Sourced directly from the finest farms in AP. Known for its sweet, juicy, and fiberless texture. Premium export quality.</p>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🥭</div>
+                <h3 class="product-title">Alphonso Mango</h3>
+                <p class="product-desc">The King of Mangoes! Highly aromatic and globally demanded for its rich, creamy, and tender flesh.</p>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🥭</div>
+                <h3 class="product-title">Totapuri Mango</h3>
+                <p class="product-desc">Excellent for processing and pulp. Known for its distinct shape and perfect blend of sweetness and acidity.</p>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <h2 class="category-title">Fruits & Vegetables</h2>
+        </div>
+        <div class="services-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 60px;">
+            <div class="product-card">
+                <div class="product-icon">🍎</div>
+                <h3 class="product-title">Indian Apples</h3>
+                <p class="product-desc">Crisp, sweet, and nutritious Indian apples. Carefully harvested and packed to maintain farm freshness.</p>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🥗</div>
+                <h3 class="product-title">Fresh Vegetables</h3>
+                <p class="product-desc">A wide variety of farm-fresh Indian vegetables, organically grown and strictly quality checked before export.</p>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🍇</div>
+                <h3 class="product-title">Grapes & Pomegranates</h3>
+                <p class="product-desc">Sweet and vibrant Indian grapes and pomegranates, offering premium quality and extended shelf life.</p>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <h2 class="category-title">Grains, Spices & Animal Feed</h2>
+        </div>
+        <div class="services-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 60px;">
+            <div class="product-card">
+                <div class="product-icon">🌾</div>
+                <h3 class="product-title">Indian Rice & Grains</h3>
+                <p class="product-desc">Top-grade Indian Basmati and Non-Basmati rice, along with other essential grains exported globally.</p>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🌶️</div>
+                <h3 class="product-title">Authentic Indian Spices</h3>
+                <p class="product-desc">Pure, aromatic, and flavorful spices directly from Indian farms, preserving natural oils and essence.</p>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🌽</div>
+                <h3 class="product-title">Animal Feeds & Oil Seeds</h3>
+                <p class="product-desc">High-quality nutritional feeds like Rice Bran and Yellow Maize, ensuring healthy livestock diets.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer style="background-color: #1a1a1a; padding: 40px 50px; text-align: center; color: white;">
+        <div class="footer-content">
+            <p>&copy; 2021-2026 VKGLOBALEXIM. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Action Menu -->
+    <div class="floating-action-menu">
+        <a href="https://wa.me/918328015946" target="_blank" class="action-button">
+            <svg viewBox="0 0 32 32" width="22" height="22" fill="#ffffff">
+                <path d="M16.01 2A14 14 0 0 0 2 16.01a13.9 13.9 0 0 0 1.88 7L2 29.98l7.15-1.87A13.92 13.92 0 0 0 16 30.01 14 14 0 0 0 30 16.02 14 14 0 0 0 16.01 2zm0 25.62a11.53 11.53 0 0 1-5.89-1.6l-.42-.25-4.38 1.15 1.17-4.27-.27-.43A11.53 11.53 0 0 1 4.41 16 11.59 11.59 0 0 1 16.01 4.41 11.6 11.6 0 0 1 27.59 16 11.59 11.59 0 0 1 16.01 27.62zm6.34-8.66c-.34-.17-2.04-1-2.35-1.12-.31-.11-.54-.17-.77.17-.22.34-.88 1.12-1.08 1.34-.2.23-.4.26-.74.09a9.42 9.42 0 0 1-2.76-1.7 10.43 10.43 0 0 1-1.92-2.38c-.2-.34-.02-.53.15-.7.15-.15.34-.4.51-.6a2.6 2.6 0 0 0 .34-.56.63.63 0 0 0-.03-.6c-.08-.17-.77-1.85-1.05-2.54-.27-.66-.55-.57-.77-.58h-.65c-.23 0-.6.09-.92.42-.31.35-1.2 1.17-1.2 2.85s1.23 3.3 1.4 3.53c.17.23 2.41 3.68 5.84 5.16 2.37 1.02 3.24 1.1 4.29.93.81-.13 2.04-.84 2.33-1.65.29-.81.29-1.5.2-1.65-.08-.14-.31-.22-.65-.39z"></path>
+            </svg>
+            Whatsapp Chat
+        </a>
+        <a href="mailto:info.vkglobalexim@gmail.com" class="action-button">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="#ffffff">
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path>
+            </svg>
+            Send Email
+        </a>
+        <a href="index.html#contact" class="action-button">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="#ffffff">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path>
+            </svg>
+            Contact Us
+        </a>
+    </div>
+</body>
+</html>
